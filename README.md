@@ -18,7 +18,7 @@ For the client machine, I installed Windows 10 Educational Edition. I have a Win
 
 ![Network Diagram](Screenshots/Network-Diagram.png)
 
-# Project 1: Adding users and Resetting Passwords
+# Project 1: Adding Users and Resetting Passwords
 For now, I have created two organizational units - _ADMINS and _USERS
 
 Organizational Unit (OU): A structural subset within a larger organization such as a department, team, or branch. Specific permissions or policies can be assigned to resources and employees within each unit. 
