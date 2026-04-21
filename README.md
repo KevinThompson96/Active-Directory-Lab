@@ -42,7 +42,7 @@ To add a large number of users to the Domain, I used this PowerShell script (htt
 
 ## Resetting a Password:
 
-In this fictional scenario, one of our users Michell Bailey comes back to work after taking two weeks off for a vacation and can’t remember what his password is. After multiple failed logins, he contacts the IT team (myself) and asks for a password reset. 
+In this fictional scenario, one of our users Michell Bailey comes back to work after taking two weeks off for a vacation and can’t remember what his password is. After multiple failed logins, he contacts the IT team and asks for a password reset. 
 In Active Directory Users and Computers, under the _USERS OU, I find Michell Bailey’s account, right click, and select reset password. I use the temporary new password of “Summer2026” and make sure “User must change password at next logon” is checked. 
 
 ![Resetting password](Screenshots/Resetting-mbailey-Password.png)
