@@ -18,6 +18,15 @@ For the client machine, I installed Windows 10 Educational Edition. I have a Win
 
 ![Network Diagram](Screenshots/Network-Diagram.png)
 
+On the Server VM, I added the Active Directory Domain Services role, promoted the server to a domain controller, and created the fully qualified domain name (FDQN) as mydomain.com. 
+
+I added the Routing and Remote Access Service feature and used NAT to allow the internal NIC on the DC to act as a network router. The client’s internet traffic will now pass through the DC. 
+
+Next, I added the DHCP server role to the DC, to allow the client machine(s) to obtain their network addressing from the DC and not the host machine.
+
+Finally, I named the Windows 10 machine “CLIENT1” and added it to the domain “mydomain.com”. Any user I create in my domain can now use their credentials and log on to this machine. This simulates a corporate environment, where (generally) a user only needs one set of credentials to access multiple computers.  
+
+
 # Project 1: Adding Users and Resetting Passwords
 For now, I have created two organizational units - _ADMINS and _USERS
 
